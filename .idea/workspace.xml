@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="과제 끝">
+    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="AwardsTrigger_tr.cls 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/AwardsTrigger_tr.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/AwardsTrigger_tr.cls" afterDir="false" />
     </list>
@@ -69,7 +69,7 @@
                       <entry key="APEXCLASS:ANIMALSHTTPCALLOUTMOCK" value="1663135857151" />
                       <entry key="APEXCLASS:ASYNCCALCULATORSERVICES" value="1663135857151" />
                       <entry key="APEXCLASS:ASYNCPARKSERVICE" value="1663135857151" />
-                      <entry key="APEXCLASS:AWARDSTRIGGER_TR" value="1663576804989" />
+                      <entry key="APEXCLASS:AWARDSTRIGGER_TR" value="1663577065302" />
                       <entry key="APEXCLASS:AWESOMECALCULATOR" value="1663135857151" />
                       <entry key="APEXCLASS:AWESOMECALCULATORTEST" value="1663135857151" />
                       <entry key="APEXCLASS:BOTCONTROLLER" value="1663135857151" />
@@ -282,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663575988263</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AwardsTrigger_tr.cls 수정">
+      <created>1663577078634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663577078634</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +305,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="과제 끝" />
-    <option name="LAST_COMMIT_MESSAGE" value="과제 끝" />
+    <MESSAGE value="AwardsTrigger_tr.cls 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="AwardsTrigger_tr.cls 수정" />
   </component>
 </project>

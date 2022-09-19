@@ -93,8 +93,7 @@ public with sharing class AwardsTrigger_tr extends TriggerHandler{
 
         for(Awards__c obj : listOld) {
             // 수상 경력이 변경되었을 때만 비교 && 삭제 된 레코드들 중 같은 학생인 경우 가장 최신의 수상경력인 객체를 저장
-            if(obj.AwardDate__c != null && obj.AwardDate__c != null
-                    && (mapIds.isEmpty() || mapDate.get(obj.contact__c) < obj.AwardDate__c)) {
+            if(obj.AwardDate__c != null && (mapIds.isEmpty() || mapDate.get(obj.contact__c) < obj.AwardDate__c)) {
                 mapDate.put(obj.contact__c, obj.AwardDate__c);
                 mapIds.put(obj.contact__c, obj.Id);
             }
