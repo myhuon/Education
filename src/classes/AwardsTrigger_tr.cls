@@ -39,7 +39,7 @@ public with sharing class AwardsTrigger_tr extends TriggerHandler{
         List<Contact> listUpdate = new List<Contact>();
 
         for(Awards__c obj : listNew) {
-            if(obj.AwardDate__c != null && (mapRecentDate.isEmpty() || mapRecentDate.get(obj.contact__c) < obj.AwardDate__c)) {
+            if(obj.AwardDate__c != null && (mapRecentDate.get(obj.Contact__c) == null || mapRecentDate.get(obj.contact__c) < obj.AwardDate__c)) {
                 mapRecentDate.put(obj.contact__c, obj.AwardDate__c);
             }
         }
@@ -66,7 +66,7 @@ public with sharing class AwardsTrigger_tr extends TriggerHandler{
         for(Awards__c obj : listNew) {
             // 수상 경력이 변경되었을 때만 비교
             if(mapOld.get(obj.Id).AwardDate__c != obj.AwardDate__c && obj.AwardDate__c != null
-                    && (mapRecentDate.isEmpty() || mapRecentDate.get(obj.contact__c) < obj.AwardDate__c)) {
+                    && (mapRecentDate.get(obj.Contact__c) == null || mapRecentDate.get(obj.contact__c) < obj.AwardDate__c)) {
                 mapRecentDate.put(obj.contact__c, obj.AwardDate__c);
             }
         }
