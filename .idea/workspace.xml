@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="" />
+    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ChangeStudentClassController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ChangeStudentClassController.cls" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +25,9 @@
         <option value="Apex Metadata" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IlluminatedCloudWorkspaceSettings">
     <option name="moduleWorkspaceSettings">
@@ -78,7 +87,7 @@
                       <entry key="APEXCLASS:CALCULATORCALLOUTMOCK" value="1663135857151" />
                       <entry key="APEXCLASS:CALCULATORSERVICES" value="1663135857151" />
                       <entry key="APEXCLASS:CASEMANAGER" value="1663135857151" />
-                      <entry key="APEXCLASS:CHANGESTUDENTCLASSCONTROLLER" value="1663310607000" />
+                      <entry key="APEXCLASS:CHANGESTUDENTCLASSCONTROLLER" value="1663575961926" />
                       <entry key="APEXCLASS:DREAMHOUSESAMPLEDATACONTROLLER" value="1663135857151" />
                       <entry key="APEXCLASS:EINSTEINVISIONCONTROLLER" value="1663135857151" />
                       <entry key="APEXCLASS:EINSTEINVISIONCONTROLLERTEST" value="1663135857151" />
@@ -137,7 +146,7 @@
                       <entry key="APEXPAGE:HEATMAP" value="1663135857151" />
                       <entry key="APEXPAGE:HEATMAPMOCK" value="1663135857151" />
                       <entry key="APEXPAGE:PRINTSTUDENTLIST" value="1663548807000" />
-                      <entry key="APEXPAGE:PRINTSTUDENTLIST2" value="1663564586341" />
+                      <entry key="APEXPAGE:PRINTSTUDENTLIST2" value="1663564812353" />
                       <entry key="APEXPAGE:STATIONCHECK" value="1663135857151" />
                       <entry key="APEXTRIGGER:ACCOUNTTRIGGER" value="1663136439000" />
                       <entry key="APEXTRIGGER:AWARDSTRIGGER" value="1663317176025" />
@@ -152,7 +161,7 @@
                       <entry key="APEXTRIGGER:SLACK_PROJECT" value="1663135857151" />
                       <entry key="APEXTRIGGER:SLACK_PROPERTY" value="1663135857151" />
                       <entry key="AURADEFINITIONBUNDLE:BOT" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:CHANGESTUDENTCLASS" value="1663550314000" />
+                      <entry key="AURADEFINITIONBUNDLE:CHANGESTUDENTCLASS" value="1663575972296" />
                       <entry key="AURADEFINITIONBUNDLE:DAYSONMARKETESTIMATOR" value="1663135857151" />
                       <entry key="AURADEFINITIONBUNDLE:EINSTEINVISION" value="1663135857151" />
                       <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONCARD" value="1663135857151" />
@@ -230,7 +239,7 @@
         </option>
         <option name="logAnalyzerSettings">
           <LogAnalyzerSettings>
-            <option name="splitterProportion" value="0.18237083" />
+            <option name="splitterProportion" value="0.33519554" />
           </LogAnalyzerSettings>
         </option>
       </ProjectWorkspaceSettings>
@@ -240,6 +249,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EkHL8hTCpWgvPebOmqpxPcwFxe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -269,5 +279,16 @@
       <updated>1663132605538</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

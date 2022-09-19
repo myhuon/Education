@@ -38,7 +38,6 @@ public with sharing class ChangeStudentClassController {
 
     @AuraEnabled
     public static Boolean changeClass(String className, String recordId){
-
         List<Contact> listContact = [
                 SELECT Class__c
                 FROM Contact
@@ -57,8 +56,10 @@ public with sharing class ChangeStudentClassController {
         if(!listContact.isEmpty()){
             List<Contact> listUpdate = new List<Contact>();
             for(Contact obj : listContact){
-                obj.Class__c = listClass.get(0).Id;
-                listUpdate.add(obj);
+                if(!listClass.isEmpty()){
+                    obj.Class__c = listClass.get(0).Id;
+                    listUpdate.add(obj);
+                }
             }
 
             if(!listUpdate.isEmpty()) {

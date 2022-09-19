@@ -2,13 +2,18 @@
  - Created by hyunsoo.song@daeunextier.com on 2022-09-15.
  -->
 
-<aura:component description="ChangeStudentClassController" controller="ChangeStudentClassController" implements="force:hasRecordId,force:lightningQuickActionWithoutHeader,flexipage:availableForAllPageTypes">
-    <aura:handler name="init" value="{!this}" action="{!c.fnInit}" />
+<aura:component description="ChangeStudentClassController" controller="ChangeStudentClassController"
+                implements="force:hasRecordId,force:lightningQuickActionWithoutHeader,flexipage:availableForAllPageTypes">
+    <aura:handler name="init" value="{!this}" action="{!c.fnInit}"/>
     <!-- 변수 선언 -->
-    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="recordId" type="String"/>
     <aura:attribute name="classes" type="List" default="['학급 없음']"/>
-    <lightning:combobox name="cbClass" label="학급 이동" value="hi" placeholder="학급을 선택하세요." options="{! v.classes }" onchange="{! c.handleChange }">
+    <aura:attribute name="selectClassCB" type="String" default="선택 안함"/>
 
-    </lightning:combobox>
+    <lightning:combobox name="selectedClass" label="학급 이동" value="hi" placeholder="학급을 선택하세요."
+                        options="{! v.classes }" onchange="{! c.selectItem }" />
+
+    <lightning:button variant="brand" value="{!v.selectClassCB}" label="이동" title="반 이동" onclick="{! c.handleChange }"/>
+    <lightning:button variant="neutral" title="취소" label="취소" onclick="{!c.fnCancel}"/>
 
 </aura:component>

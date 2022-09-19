@@ -30,13 +30,17 @@
             $A.enqueueAction(action);
     },
 
+    selectItem : function(component, event) {
+        component.set("v.selectClassCB", event.getParam("value"));
+    },
+
     changeClass : function(component, event) {
              // apexController.함수명 으로 데이터 가져옴
              var action = component.get("c.changeClass");
 
              action.setParams({
                 // component에서 name이 classes인 aura:attribute 값을 가져와서 apexController로 넘겨줌
-                className : event.getParam("value"),
+                className : component.get("v.selectClassCB"),
                 recordId : component.get("v.recordId")
              });
              action.setCallback(this, function(response) {
@@ -44,6 +48,13 @@
                  if(state === "SUCCESS") {
                      var returnValue = response.getReturnValue();
                      console.log(returnValue);
+                     var toastEvent = $A.get("e.force:showToast");
+                     toastEvent.setParams({
+                        title : 'Success',
+                        message: '학급 이동 성공',
+                        type: 'success'
+                     });
+                     toastEvent.fire();
                  } else if(state === "ERROR") {
                       var errors = response.getError();
                       console.log(errors);
