@@ -1,0 +1,37 @@
+<!--
+ - Created by hyunsoo.song@daeunextier.com on 2022-09-14.
+ -->
+
+<aura:component description="StudentInfo" controller="StudentInfoController" implements="force:hasRecordId,force:lightningQuickActionWithoutHeader,flexipage:availableForAllPageTypes">
+    <!-- 변수 선언 -->
+    <aura:attribute name="objStudent" type="Object" default=""/>
+    <aura:attribute name="recordId" type="String" />
+    <aura:handler name="init" value="{!this}" action="{!c.fnInit}" />
+
+    <h3 class="slds-section__title slds-theme_shade" style="margin-top:10px">
+        <span class="slds-truncate slds-p-horizontal_small" title="수신동의">수상자(학생) 정보</span>
+    </h3>
+
+    <lightning:layout>
+        <lightning:layoutItem size="6" padding="horizontal-small">
+            <div class="slds-form-element slds-form-element_edit slds-form-element_readonly">
+                <div class="slds-form-element slds-form-element_horizontal">
+                    <span class="slds-form-element__label">이름</span>
+                    <div class="slds-form-element__control">
+                        <div class="slds-form-element__static">{!v.objStudent.LastName}</div>
+                    </div>
+                </div>
+            </div>
+        </lightning:layoutItem>
+        <lightning:layoutItem size="6" padding="horizontal-small">
+            <div class="slds-form-element slds-form-element_edit slds-form-element_readonly">
+                <div class="slds-form-element slds-form-element_horizontal">
+                    <span class="slds-form-element__label">학년 반</span>
+                    <div class="slds-form-element__control">
+                        <div class="slds-form-element__static">{!v.objStudent.ClassName}</div>
+                    </div>
+                </div>
+            </div>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>
