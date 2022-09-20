@@ -40,9 +40,10 @@
         <div style="margin-top:30px;padding-left:40%;font-family:'Arial Unicode MS'">
             <!-- 2중 반복문 -->
             <apex:variable var="order" value="{!1}" />
+            <apex:variable var="cnt" value="{!1}" />
             <apex:repeat value="{!doubleListContact}" var="listObj">
-                <table style="border:black solid 1px;border-collapse:collapse;page-break-after:always">
-                    <tr>
+                <table style="border:black solid 1px;border-collapse:collapse;{!IF(doubleListContact.size == cnt, '','page-break-after:always')}">
+                <tr>
                         <td style="border:black solid 1px;">순번</td>
                         <td style="border:black solid 1px;">이름</td>
                         <td style="border:black solid 1px;">생년월일</td>
@@ -59,6 +60,7 @@
                         </tr>
                         <apex:variable var="order" value="{!order + 1}" />
                     </apex:repeat>
+                    <apex:variable var="cnt" value="{!cnt + 1}" />
                 </table>
             </apex:repeat>
         </div>

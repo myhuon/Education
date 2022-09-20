@@ -48,6 +48,13 @@
                  if(state === "SUCCESS") {
                      var returnValue = response.getReturnValue();
                      console.log(returnValue);
+
+                     if(returnValue == false){
+                         this.showToast("Error", "현재 학년과 같은 학년을 선택해주세요.");
+                     }
+                     else{
+                         this.showToast("Success", "이동 성공.");
+                     }
                      var toastEvent = $A.get("e.force:showToast");
                      toastEvent.setParams({
                         title : 'Success',
@@ -60,13 +67,14 @@
                       console.log(errors);
                        if(errors) {
                            //에러가 났을경우는 주로 ShowToast 함수를 이용하여 토스트 메시지를 띄움
-                           var toastEvent = $A.get("e.force:showToast");
+                           /*var toastEvent = $A.get("e.force:showToast");
                            toastEvent.setParams({
                                 title : 'Error',
                                 message: '현재 학년과 같은 학년을 선택해주세요.',
                                 type: 'error'
                            });
-                           toastEvent.fire();
+                           toastEvent.fire();*/
+                           this.showToast("Error", "현재 학년과 같은 학년을 선택해주세요.");
                        } else {
 
                        }
@@ -74,4 +82,14 @@
              });
              $A.enqueueAction(action);
     },
+
+    showToast : function(type, message) {
+        var evt = $A.get("e.force:showToast");
+        evt.setParams({
+            key : "info_alt"
+            , type : type
+            , message : message
+        });
+        evt.fire();
+    }
 });

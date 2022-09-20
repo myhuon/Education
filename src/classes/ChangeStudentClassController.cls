@@ -22,10 +22,10 @@ public with sharing class ChangeStudentClassController {
         List<Map<String, String>> listReturn = new List<Map<String, String>>();
         if(!listClass.isEmpty()){
             Map<String, String> mapValues = new Map<String, String>();
-            Set<Class__c> setClass = new Set<Class__c>();
-            setClass.addAll(listClass);
+            /*Set<Class__c> setClass = new Set<Class__c>();
+            setClass.addAll(listClass);*/
 
-            for(Class__c obj : setClass){
+            for(Class__c obj : listClass){
                 if(!mapValues.isEmpty()) mapValues = new Map<String, String>();
                 mapValues.put('label', obj.Name);
                 mapValues.put('value', obj.Name);
@@ -39,18 +39,25 @@ public with sharing class ChangeStudentClassController {
     @AuraEnabled
     public static Boolean changeClass(String className, String recordId){
         List<Contact> listContact = [
-                SELECT Class__c
+                SELECT Class__r.Grade__c
                 FROM Contact
                 WHERE Id =: recordId
                 LIMIT 1
         ];
 
         List<Class__c> listClass = [
-                SELECT Id
+                SELECT Id, Grade__c
                 FROM Class__c
                 WHERE Name =: className
                 LIMIT 1
         ];
+
+        if(listClass[0].Grade__c != listContact[0].Class__r.Grade__c) {
+            return false;
+        }
+        else {
+
+        }
 
         Boolean isSame = true;
         if(!listContact.isEmpty()){
