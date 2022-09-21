@@ -10,7 +10,7 @@
  * 1.0   2022-09-16   hyunsoo.song@daeunextier.com   Initial Version
  */
 trigger ContactTrigger on Contact (before insert, before update, before delete, after insert, after update, after delete, after undelete) {
-    if(Trigger.isBefore) {
+    /*if(Trigger.isBefore) {
         if (Trigger.isUpdate) {
             //Before Update Trigger Start..
             Map<Contact, Id> mapContact = new Map<Contact, Id>();
@@ -38,5 +38,5 @@ trigger ContactTrigger on Contact (before insert, before update, before delete, 
                 }
             }
         }
-    }
+    }*/
 }

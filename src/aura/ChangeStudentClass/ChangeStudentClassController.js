@@ -8,9 +8,9 @@
             helper.getInitData(component);
     },
 
-    selectItem : function(component, event, helper) {
+/*    selectItem : function(component, event, helper) {
         helper.selectItem(component, event);
-    },
+    },*/
 
     handleChange : function(component, event, helper) {
         var result = confirm('학급을 정말 이동하시겠습니까?');

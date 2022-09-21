@@ -30,53 +30,33 @@
             $A.enqueueAction(action);
     },
 
-    selectItem : function(component, event) {
-        component.set("v.selectClassCB", event.getParam("value"));
-    },
-
     changeClass : function(component, event) {
              // apexController.함수명 으로 데이터 가져옴
              var action = component.get("c.changeClass");
 
              action.setParams({
                 // component에서 name이 classes인 aura:attribute 값을 가져와서 apexController로 넘겨줌
-                className : component.get("v.selectClassCB"),
+                className : component.get("v.selectedClass"),
                 recordId : component.get("v.recordId")
              });
              action.setCallback(this, function(response) {
                 var state = response.getState();
                  if(state === "SUCCESS") {
                      var returnValue = response.getReturnValue();
-                     console.log(returnValue);
 
-                     if(returnValue == false){
-                         this.showToast("Error", "현재 학년과 같은 학년을 선택해주세요.");
+                     if(!returnValue){
+                         this.showToast("Error", "타 학년으로 이동 불가");
+                     } else {
+                         this.showToast("Success", "반 이동 성공");
                      }
-                     else{
-                         this.showToast("Success", "이동 성공.");
-                     }
-                     var toastEvent = $A.get("e.force:showToast");
-                     toastEvent.setParams({
-                        title : 'Success',
-                        message: '학급 이동 성공',
-                        type: 'success'
-                     });
-                     toastEvent.fire();
                  } else if(state === "ERROR") {
                       var errors = response.getError();
                       console.log(errors);
                        if(errors) {
                            //에러가 났을경우는 주로 ShowToast 함수를 이용하여 토스트 메시지를 띄움
-                           /*var toastEvent = $A.get("e.force:showToast");
-                           toastEvent.setParams({
-                                title : 'Error',
-                                message: '현재 학년과 같은 학년을 선택해주세요.',
-                                type: 'error'
-                           });
-                           toastEvent.fire();*/
-                           this.showToast("Error", "현재 학년과 같은 학년을 선택해주세요.");
+                           if(errors[0] && errors[0].message) this.showToast("error", errors[0].message);
                        } else {
-
+                            this.showToast("error", "Unknown error");
                        }
                  }
              });

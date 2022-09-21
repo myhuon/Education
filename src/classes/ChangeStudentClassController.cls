@@ -38,6 +38,7 @@ public with sharing class ChangeStudentClassController {
 
     @AuraEnabled
     public static Boolean changeClass(String className, String recordId){
+        System.debug('className : ' + className);
         List<Contact> listContact = [
                 SELECT Class__r.Grade__c
                 FROM Contact
@@ -54,26 +55,11 @@ public with sharing class ChangeStudentClassController {
 
         if(listClass[0].Grade__c != listContact[0].Class__r.Grade__c) {
             return false;
-        }
-        else {
-
-        }
-
-        Boolean isSame = true;
-        if(!listContact.isEmpty()){
-            List<Contact> listUpdate = new List<Contact>();
-            for(Contact obj : listContact){
-                if(!listClass.isEmpty()){
-                    obj.Class__c = listClass.get(0).Id;
-                    listUpdate.add(obj);
-                }
-            }
-
-            if(!listUpdate.isEmpty()) {
-                update listUpdate;
-            }
+        } else {
+            listContact[0].Class__c = listClass[0].Id;
+            update listContact;
         }
 
-        return isSame;
+        return true;
     }
 }

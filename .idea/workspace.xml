@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="AwardsTrigger_tr.cls 수정">
+    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="code review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassHelper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/ChangeStudentClassController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ChangeStudentClassController.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PrintStudentList2.page" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PrintStudentList2.page" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/ContactTrigger.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/ContactTrigger.trigger" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
                       <entry key="APEXCLASS:CALCULATORCALLOUTMOCK" value="1663135857151" />
                       <entry key="APEXCLASS:CALCULATORSERVICES" value="1663135857151" />
                       <entry key="APEXCLASS:CASEMANAGER" value="1663135857151" />
-                      <entry key="APEXCLASS:CHANGESTUDENTCLASSCONTROLLER" value="1663648490000" />
+                      <entry key="APEXCLASS:CHANGESTUDENTCLASSCONTROLLER" value="1663745038000" />
                       <entry key="APEXCLASS:DREAMHOUSESAMPLEDATACONTROLLER" value="1663135857151" />
                       <entry key="APEXCLASS:EINSTEINVISIONCONTROLLER" value="1663135857151" />
                       <entry key="APEXCLASS:EINSTEINVISIONCONTROLLERTEST" value="1663135857151" />
@@ -146,12 +147,12 @@
                       <entry key="APEXPAGE:HEATMAP" value="1663135857151" />
                       <entry key="APEXPAGE:HEATMAPMOCK" value="1663135857151" />
                       <entry key="APEXPAGE:PRINTSTUDENTLIST" value="1663548807000" />
-                      <entry key="APEXPAGE:PRINTSTUDENTLIST2" value="1663648531729" />
+                      <entry key="APEXPAGE:PRINTSTUDENTLIST2" value="1663648623714" />
                       <entry key="APEXPAGE:STATIONCHECK" value="1663135857151" />
                       <entry key="APEXTRIGGER:ACCOUNTTRIGGER" value="1663136439000" />
                       <entry key="APEXTRIGGER:AWARDSTRIGGER" value="1663317176025" />
                       <entry key="APEXTRIGGER:CLASSTRIGGER" value="1663140911053" />
-                      <entry key="APEXTRIGGER:CONTACTTRIGGER" value="1663310099345" />
+                      <entry key="APEXTRIGGER:CONTACTTRIGGER" value="1663743943000" />
                       <entry key="APEXTRIGGER:PUSHNOTIFICATIONTRIGGER" value="1663135857151" />
                       <entry key="APEXTRIGGER:REJECTDUPLICATEFAVORITE" value="1663135857151" />
                       <entry key="APEXTRIGGER:SLACK_BOT_COMMAND" value="1663135857151" />
@@ -161,7 +162,7 @@
                       <entry key="APEXTRIGGER:SLACK_PROJECT" value="1663135857151" />
                       <entry key="APEXTRIGGER:SLACK_PROPERTY" value="1663135857151" />
                       <entry key="AURADEFINITIONBUNDLE:BOT" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:CHANGESTUDENTCLASS" value="1663648495000" />
+                      <entry key="AURADEFINITIONBUNDLE:CHANGESTUDENTCLASS" value="1663745247000" />
                       <entry key="AURADEFINITIONBUNDLE:DAYSONMARKETESTIMATOR" value="1663135857151" />
                       <entry key="AURADEFINITIONBUNDLE:EINSTEINVISION" value="1663135857151" />
                       <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONCARD" value="1663135857151" />
@@ -299,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663578624178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code review">
+      <created>1663648734243</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663648734243</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +324,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="과제 끝" />
     <MESSAGE value="AwardsTrigger_tr.cls 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="AwardsTrigger_tr.cls 수정" />
+    <MESSAGE value="code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="code review" />
   </component>
 </project>
