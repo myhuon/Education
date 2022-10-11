@@ -1,5 +1,5 @@
 trigger AccountTrigger on Account (before insert,before update, before delete,after insert, after update, after delete) {
-    if(Trigger.isBefore) {
+    /*if(Trigger.isBefore) {
         if (Trigger.isInsert) {
             System.debug('Before Insert Trigger Start...');
             System.debug('Trigger.Size > ' + Trigger.size);
@@ -41,5 +41,5 @@ trigger AccountTrigger on Account (before insert,before update, before delete,af
             System.debug('Trigger.old >' + Trigger.old);
             System.debug('Trigger.oldMap >' + Trigger.oldMap);
         }
-    }
+    }*/
 }

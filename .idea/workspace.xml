@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="code update">
-      <change afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_sc.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_sc.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls-meta.xml" afterDir="false" />
+    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="create batch class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IlluminatedCloud/Education/OfflineSymbolTable.zip" beforeDir="false" afterPath="$PROJECT_DIR$/IlluminatedCloud/Education/OfflineSymbolTable.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/AccountTrigger.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/AccountTrigger.trigger" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,9 +88,9 @@
                       <entry key="APEXCLASS:CALCULATORSERVICES" value="1663135857151" />
                       <entry key="APEXCLASS:CASEMANAGER" value="1663135857151" />
                       <entry key="APEXCLASS:CHANGESTUDENTCLASSCONTROLLER" value="1663745263719" />
-                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_BA" value="1665468189147" />
+                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_BA" value="1665479643921" />
                       <entry key="APEXCLASS:CONTACTDELAYEMAIL_SC" value="1665468189147" />
-                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_TEST" value="1665468937000" />
+                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_TEST" value="1665476781731" />
                       <entry key="APEXCLASS:DREAMHOUSESAMPLEDATACONTROLLER" value="1663135857151" />
                       <entry key="APEXCLASS:EINSTEINVISIONCONTROLLER" value="1663135857151" />
                       <entry key="APEXCLASS:EINSTEINVISIONCONTROLLERTEST" value="1663135857151" />
@@ -154,7 +151,7 @@
                       <entry key="APEXPAGE:PRINTSTUDENTLIST" value="1663548807000" />
                       <entry key="APEXPAGE:PRINTSTUDENTLIST2" value="1663648623714" />
                       <entry key="APEXPAGE:STATIONCHECK" value="1663135857151" />
-                      <entry key="APEXTRIGGER:ACCOUNTTRIGGER" value="1663136439000" />
+                      <entry key="APEXTRIGGER:ACCOUNTTRIGGER" value="1665474129996" />
                       <entry key="APEXTRIGGER:AWARDSTRIGGER" value="1663317176025" />
                       <entry key="APEXTRIGGER:CLASSTRIGGER" value="1663140911053" />
                       <entry key="APEXTRIGGER:CONTACTTRIGGER" value="1663743943000" />
@@ -277,6 +274,51 @@
       <recent name="C:\Users\송현수\IntelliJ\Education\src\pages" />
     </key>
   </component>
+  <component name="RunManager" selected="Apex Unit Tests.ContactDelayEmail_test">
+    <configuration name="ContactDelayEmail_test" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="Education" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="Education">
+            <value>
+              <set>
+                <option value="ContactDelayEmail_test" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map />
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Apex Unit Tests.ContactDelayEmail_test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -321,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663745351411</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create batch class">
+      <created>1665469318036</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665469318036</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,6 +389,10 @@
     <MESSAGE value="AwardsTrigger_tr.cls 수정" />
     <MESSAGE value="code review" />
     <MESSAGE value="code update" />
-    <option name="LAST_COMMIT_MESSAGE" value="code update" />
+    <MESSAGE value="create batch class" />
+    <option name="LAST_COMMIT_MESSAGE" value="create batch class" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Education$ContactDelayEmail_test.ic2" NAME="Education Coverage Results" MODIFIED="1665479646582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="Education" CONNECTION_NAME="Education" CONNECTION_TYPE="MDAPI" />
   </component>
 </project>
