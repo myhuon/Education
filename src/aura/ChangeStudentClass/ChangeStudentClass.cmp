@@ -10,8 +10,7 @@
     <aura:attribute name="selectedClass" type="String"/>
     <aura:attribute name="classes" type="List" default="['학급 없음']"/>
 
-    <lightning:combobox name="selectedClass" label="학급 이동" value="{!v.selectedClass}" placeholder="학급을 선택하세요."
-                        options="{! v.classes }" />
+    <lightning:combobox name="selectedClass" label="학급 이동" value="{!v.selectedClass}" placeholder="학급을 선택하세요." options="{! v.classes }" />
 
     <lightning:button variant="brand" label="이동" title="반 이동" onclick="{! c.handleChange }"/>
     <lightning:button variant="neutral" title="취소" label="취소" onclick="{!c.fnCancel}"/>
