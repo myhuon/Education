@@ -20,10 +20,12 @@ public with sharing class ContactDelayEmail_test {
         System.debug('listAccounts : ' + listAccounts);
 
         List<Contact> listContact = new List<Contact>();
-        for(Integer i=0; i<100; i++){
+        for(Integer i=0; i<2; i++){
             Contact obj = new Contact(LastName = 'Batch' + i, AccountId = listAccounts.get(0).Id, Email = 'hyunsoo.song@daeunextier.com');
             listContact.add(obj);
         }
+        Contact obj = new Contact(LastName = 'Batch' + 100, AccountId = listAccounts.get(0).Id, Email = 'myhuon3321@gmail.com');
+        listContact.add(obj);
 
         try{
             insert listContact;

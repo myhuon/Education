@@ -19,36 +19,36 @@ public with sharing class ContactDelayEmail_ba implements Database.Batchable<sOb
         String query;
         query = 'SELECT Id, Name, Email';
         query += 'FROM Contact';
-        query += 'WHERE CreatedDate < ' + Datetime.now().addDays(-3);   // 이거 안됨
+        query += 'WHERE CreatedDate < ' + Datetime.now().addDays(-3);
 
         DateTime createdDate = Datetime.now(); //.addDays(-3)
-        List<Contact> listContact = [
-                SELECT Id, Name, Email
-                FROM Contact
-                WHERE CreatedDate <: createdDate
-        ];
-        System.debug('listContact : ' + listContact);
-
         return Database.getQueryLocator([
                 SELECT Id, Name, Email
                 FROM Contact
-                WHERE CreatedDate <: createdDate AND Email =: 'hyunsoo.song@daeunextier.com'
+                WHERE CreatedDate <: createdDate AND Email IN ('hyunsoo.song@daeunextier.com', 'myhuon3321@gmail.com')
                 LIMIT 15
         ]);
     }
 
     public void execute(Database.BatchableContext bc, List<Contact> listContact) {
         List<Messaging.SingleEmailMessage> listMails = new List<Messaging.SingleEmailMessage>();
-        List<String> listAddress = new List<String>();
+
+        // 1) 같은 이메일 일괄 전송
+        /*List<String> listAddress = new List<String>();
         for(Contact obj : listContact) {
             if(obj.Email != null) {
                 listAddress.add(obj.Email);
+                system.debug('Email Address : ' + obj.Email);
             }
-        }
+        }*/
 
-        if(!listAddress.isEmpty()){
+        if(!listContact.isEmpty()){
+            List<String> listAddress;
             for(Contact obj : listContact) {
                 Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
+                // 2) 개인의 특성에 맞는 이메일 각각 전송
+                listAddress = new List<String>();
+                listAddress.add(obj.Email);
                 mail.setToAddresses(listAddress);
                 mail.setSubject('[SFDC] ' + obj.Name + '님 안녕하세요.');
                 mail.setHtmlBody('<p>배치 클래스 테스트입니다.<p></br><h1>TEST</h1>');

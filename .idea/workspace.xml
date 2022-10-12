@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="create batch test class - 아직 미완성..">
+    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="update batch class, schedule class, batch test class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClass.cmp-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ChangeStudentClass/ChangeStudentClassHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/PrintStudentList/PrintStudentList.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/PrintStudentList/PrintStudentList.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/PrintStudentList/PrintStudentList.cmp-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/PrintStudentList/PrintStudentList.cmp-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/PrintStudentList/PrintStudentListController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/PrintStudentList/PrintStudentListController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/StudentInfo/StudentInfo.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/StudentInfo/StudentInfo.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/StudentInfo/StudentInfo.cmp-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/StudentInfo/StudentInfo.cmp-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/StudentInfo/StudentInfoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/StudentInfo/StudentInfoController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/AwardsTrigger_tr.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/AwardsTrigger_tr.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/AwardsTrigger_tr.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/AwardsTrigger_tr.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ChangeStudentClassController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ChangeStudentClassController.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ChangeStudentClassController.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ChangeStudentClassController.cls-meta.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ContactDelayEmail_sc.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_sc.cls-meta.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/PrintStudentListController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/PrintStudentListController.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/PrintStudentListController.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/PrintStudentListController.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/PrintStudentListController2.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/PrintStudentListController2.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/StudentInfoController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/StudentInfoController.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/StudentInfoController.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/StudentInfoController.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/TriggerHandler.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/TriggerHandler.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/TriggerHandler.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/TriggerHandler.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/TriggerHandler_Test.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/TriggerHandler_Test.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/TriggerHandler_Test.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/TriggerHandler_Test.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PrintStudentList.page" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PrintStudentList.page" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PrintStudentList.page-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PrintStudentList.page-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PrintStudentList2.page" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PrintStudentList2.page" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PrintStudentList2.page-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PrintStudentList2.page-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/AccountTrigger.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/AccountTrigger.trigger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/AccountTrigger.trigger-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/AccountTrigger.trigger-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/AwardsTrigger.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/AwardsTrigger.trigger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/AwardsTrigger.trigger-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/AwardsTrigger.trigger-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/ClassTrigger.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/ClassTrigger.trigger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/ClassTrigger.trigger-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/ClassTrigger.trigger-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/ContactTrigger.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/ContactTrigger.trigger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/ContactTrigger.trigger-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/ContactTrigger.trigger-meta.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,151 +98,151 @@
                 <ConnectionWorkspaceSettings>
                   <option name="buildSuccessDatesBySourceRootRelativePath">
                     <map>
-                      <entry key="APEXCLASS:ACCOUNTMANAGER" value="1663135857151" />
-                      <entry key="APEXCLASS:ACCOUNTMANAGERTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:ANIMALLOCATOR" value="1663135857151" />
-                      <entry key="APEXCLASS:ANIMALLOCATORMOCK" value="1663135857151" />
-                      <entry key="APEXCLASS:ANIMALLOCATORTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:ANIMALSCALLOUTS" value="1663135857151" />
-                      <entry key="APEXCLASS:ANIMALSCALLOUTSTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:ANIMALSHTTPCALLOUTMOCK" value="1663135857151" />
-                      <entry key="APEXCLASS:ASYNCCALCULATORSERVICES" value="1663135857151" />
-                      <entry key="APEXCLASS:ASYNCPARKSERVICE" value="1663135857151" />
-                      <entry key="APEXCLASS:AWARDSTRIGGER_TR" value="1663577065302" />
-                      <entry key="APEXCLASS:AWESOMECALCULATOR" value="1663135857151" />
-                      <entry key="APEXCLASS:AWESOMECALCULATORTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:BOTCONTROLLER" value="1663135857151" />
-                      <entry key="APEXCLASS:BOTFIELD" value="1663135857151" />
-                      <entry key="APEXCLASS:BOTHANDLER" value="1663135857151" />
-                      <entry key="APEXCLASS:BOTITEM" value="1663135857151" />
-                      <entry key="APEXCLASS:BOTMESSAGE" value="1663135857151" />
-                      <entry key="APEXCLASS:BOTMESSAGEBUTTON" value="1663135857151" />
-                      <entry key="APEXCLASS:BOTRECORD" value="1663135857151" />
-                      <entry key="APEXCLASS:BOTRESPONSE" value="1663135857151" />
-                      <entry key="APEXCLASS:BOTTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:CALCULATORCALLOUTMOCK" value="1663135857151" />
-                      <entry key="APEXCLASS:CALCULATORSERVICES" value="1663135857151" />
-                      <entry key="APEXCLASS:CASEMANAGER" value="1663135857151" />
-                      <entry key="APEXCLASS:CHANGESTUDENTCLASSCONTROLLER" value="1663745263719" />
-                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_BA" value="1665539597184" />
-                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_SC" value="1665468189147" />
-                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_TEST" value="1665538417312" />
-                      <entry key="APEXCLASS:DREAMHOUSESAMPLEDATACONTROLLER" value="1663135857151" />
-                      <entry key="APEXCLASS:EINSTEINVISIONCONTROLLER" value="1663135857151" />
-                      <entry key="APEXCLASS:EINSTEINVISIONCONTROLLERTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:EMAILMISSIONSPECIALIST" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERADDTWONUMBERS" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERCOSTCENTER" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLEREMPLOYEEID" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERFILEUPLOAD" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERFINDACCOUNT" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERFINDCONTACT" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERFINDPROPERTIES" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERFINDPROPERTIESBYBEDROOMS" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERHELLO" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERHELP" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERHELPTOPIC" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERIMAGEBASEDSEARCH" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERMYOPENCASES" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERNEXT" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERPIPELINE" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERQUARTER" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERSOQL" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERTOPOPPORTUNITIES" value="1663135857151" />
-                      <entry key="APEXCLASS:HANDLERTRAVELAPPROVAL" value="1663135857151" />
-                      <entry key="APEXCLASS:HTTPFORMBUILDER" value="1663135857151" />
-                      <entry key="APEXCLASS:JWT" value="1663135857151" />
-                      <entry key="APEXCLASS:JWTBEARERFLOW" value="1663135857151" />
-                      <entry key="APEXCLASS:LIFXCONTROLLER" value="1663135857151" />
-                      <entry key="APEXCLASS:LIFXCONTROLLERTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:PARKLOCATOR" value="1663135857151" />
-                      <entry key="APEXCLASS:PARKLOCATORTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:PARKSERVICE" value="1663135857151" />
-                      <entry key="APEXCLASS:PARKSERVICEMOCK" value="1663135857151" />
-                      <entry key="APEXCLASS:POSTPRICECHANGETOSLACK" value="1663135857151" />
-                      <entry key="APEXCLASS:POSTPRICECHANGETOSLACKTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:PRINTSTUDENTLISTCONTROLLER" value="1663292145151" />
-                      <entry key="APEXCLASS:PRINTSTUDENTLISTCONTROLLER2" value="1663564782001" />
-                      <entry key="APEXCLASS:PROPERTYCONTROLLER" value="1663135857151" />
-                      <entry key="APEXCLASS:PROPERTYCONTROLLERTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:PROPERTYPAGEDRESULT" value="1663135857151" />
-                      <entry key="APEXCLASS:PUSHPRICECHANGENOTIFICATION" value="1663135857151" />
-                      <entry key="APEXCLASS:PUSHPRICECHANGENOTIFICATIONTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:REJECTDUPLICATEFAVORITETEST" value="1663135857151" />
-                      <entry key="APEXCLASS:SLACKOPPORTUNITYPUBLISHER" value="1663135857151" />
-                      <entry key="APEXCLASS:SLACKOPPORTUNITYPUBLISHERTEST" value="1663135857151" />
-                      <entry key="APEXCLASS:SLACK_TST_BOT_COMMAND" value="1663135857151" />
-                      <entry key="APEXCLASS:SLACK_TST_BROKER" value="1663135857151" />
-                      <entry key="APEXCLASS:SLACK_TST_FAVORITE" value="1663135857151" />
-                      <entry key="APEXCLASS:SLACK_TST_OFFER" value="1663135857151" />
-                      <entry key="APEXCLASS:SLACK_TST_PROJECT" value="1663135857151" />
-                      <entry key="APEXCLASS:SLACK_TST_PROPERTY" value="1663135857151" />
-                      <entry key="APEXCLASS:STUDENTINFOCONTROLLER" value="1663141182000" />
-                      <entry key="APEXCLASS:TRIGGERHANDLER" value="1663311271135" />
-                      <entry key="APEXCLASS:TRIGGERHANDLER_TEST" value="1663311329000" />
-                      <entry key="APEXPAGE:DREAMHOUSESAMPLEDATA" value="1663135857151" />
-                      <entry key="APEXPAGE:EMAILMISSIONSPECIALIST" value="1663135857151" />
-                      <entry key="APEXPAGE:HEATMAP" value="1663135857151" />
-                      <entry key="APEXPAGE:HEATMAPMOCK" value="1663135857151" />
-                      <entry key="APEXPAGE:PRINTSTUDENTLIST" value="1663548807000" />
-                      <entry key="APEXPAGE:PRINTSTUDENTLIST2" value="1663648623714" />
-                      <entry key="APEXPAGE:STATIONCHECK" value="1663135857151" />
-                      <entry key="APEXTRIGGER:ACCOUNTTRIGGER" value="1665474129996" />
-                      <entry key="APEXTRIGGER:AWARDSTRIGGER" value="1663317176025" />
-                      <entry key="APEXTRIGGER:CLASSTRIGGER" value="1663140911053" />
-                      <entry key="APEXTRIGGER:CONTACTTRIGGER" value="1663743943000" />
-                      <entry key="APEXTRIGGER:PUSHNOTIFICATIONTRIGGER" value="1663135857151" />
-                      <entry key="APEXTRIGGER:REJECTDUPLICATEFAVORITE" value="1663135857151" />
-                      <entry key="APEXTRIGGER:SLACK_BOT_COMMAND" value="1663135857151" />
-                      <entry key="APEXTRIGGER:SLACK_BROKER" value="1663135857151" />
-                      <entry key="APEXTRIGGER:SLACK_FAVORITE" value="1663135857151" />
-                      <entry key="APEXTRIGGER:SLACK_OFFER" value="1663135857151" />
-                      <entry key="APEXTRIGGER:SLACK_PROJECT" value="1663135857151" />
-                      <entry key="APEXTRIGGER:SLACK_PROPERTY" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:BOT" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:CHANGESTUDENTCLASS" value="1663839081597" />
-                      <entry key="AURADEFINITIONBUNDLE:DAYSONMARKETESTIMATOR" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISION" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONCARD" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONDASHBOARD" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONDATASET" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONDATASETEVENT" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONEVENT" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:FORMATTEDDATE" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:MAP" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:MAPCARD" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:MORTGAGEAMORTIZATIONCHART" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:MORTGAGECALCULATOR" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:MORTGAGECALCULATORCARD" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:MORTGAGECHANGE" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PICTURECAROUSEL" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PICTUREGALLERYCARD" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PRICERANGE" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PRINTSTUDENTLIST" value="1663552046743" />
-                      <entry key="AURADEFINITIONBUNDLE:PROPERTYDAYSONMARKETCHART" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PROPERTYLISTDAYSONMARKETCHART" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PROPERTYPAGECHANGE" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PROPERTYPAGINATOR" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PROPERTYSUMMARY" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PROPERTYTILE" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:PROPERTYTILELIST" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:RANGECHANGE" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:SIMILARPROPERTIES" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:SMARTHOME" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:SMARTHOMECARD" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:SMARTLIGHTS" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:SMARTLOCKS" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:SMARTPRICECALCULATOR" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:SMARTTHERMOSTAT" value="1663135857151" />
-                      <entry key="AURADEFINITIONBUNDLE:STUDENTINFO" value="1663231496941" />
-                      <entry key="STATICRESOURCE:COUNTUP7" value="1663135857151" />
-                      <entry key="STATICRESOURCE:GETANIMALNAMERESOURCE" value="1663135857151" />
-                      <entry key="STATICRESOURCE:GETANIMALRESOURCE" value="1663135857151" />
-                      <entry key="STATICRESOURCE:HEATMAP" value="1663135857151" />
-                      <entry key="STATICRESOURCE:HEATMAPMOCK" value="1663135857151" />
-                      <entry key="STATICRESOURCE:LEAFLET" value="1663135857151" />
-                      <entry key="STATICRESOURCE:LEAFLET1" value="1663135857151" />
-                      <entry key="STATICRESOURCE:NOUISLIDER" value="1663135857151" />
+                      <entry key="APEXCLASS:ACCOUNTMANAGER" value="1665558330599" />
+                      <entry key="APEXCLASS:ACCOUNTMANAGERTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:ANIMALLOCATOR" value="1665558330599" />
+                      <entry key="APEXCLASS:ANIMALLOCATORMOCK" value="1665558330599" />
+                      <entry key="APEXCLASS:ANIMALLOCATORTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:ANIMALSCALLOUTS" value="1665558330599" />
+                      <entry key="APEXCLASS:ANIMALSCALLOUTSTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:ANIMALSHTTPCALLOUTMOCK" value="1665558330599" />
+                      <entry key="APEXCLASS:ASYNCCALCULATORSERVICES" value="1665558330599" />
+                      <entry key="APEXCLASS:ASYNCPARKSERVICE" value="1665558330599" />
+                      <entry key="APEXCLASS:AWARDSTRIGGER_TR" value="1665558330599" />
+                      <entry key="APEXCLASS:AWESOMECALCULATOR" value="1665558330599" />
+                      <entry key="APEXCLASS:AWESOMECALCULATORTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:BOTCONTROLLER" value="1665558330599" />
+                      <entry key="APEXCLASS:BOTFIELD" value="1665558330599" />
+                      <entry key="APEXCLASS:BOTHANDLER" value="1665558330599" />
+                      <entry key="APEXCLASS:BOTITEM" value="1665558330599" />
+                      <entry key="APEXCLASS:BOTMESSAGE" value="1665558330599" />
+                      <entry key="APEXCLASS:BOTMESSAGEBUTTON" value="1665558330599" />
+                      <entry key="APEXCLASS:BOTRECORD" value="1665558330599" />
+                      <entry key="APEXCLASS:BOTRESPONSE" value="1665558330599" />
+                      <entry key="APEXCLASS:BOTTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:CALCULATORCALLOUTMOCK" value="1665558330599" />
+                      <entry key="APEXCLASS:CALCULATORSERVICES" value="1665558330599" />
+                      <entry key="APEXCLASS:CASEMANAGER" value="1665558330599" />
+                      <entry key="APEXCLASS:CHANGESTUDENTCLASSCONTROLLER" value="1665558330599" />
+                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_BA" value="1665566157497" />
+                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_SC" value="1665566208412" />
+                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_TEST" value="1665562502340" />
+                      <entry key="APEXCLASS:DREAMHOUSESAMPLEDATACONTROLLER" value="1665558330599" />
+                      <entry key="APEXCLASS:EINSTEINVISIONCONTROLLER" value="1665558330599" />
+                      <entry key="APEXCLASS:EINSTEINVISIONCONTROLLERTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:EMAILMISSIONSPECIALIST" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERADDTWONUMBERS" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERCOSTCENTER" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLEREMPLOYEEID" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERFILEUPLOAD" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERFINDACCOUNT" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERFINDCONTACT" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERFINDPROPERTIES" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERFINDPROPERTIESBYBEDROOMS" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERHELLO" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERHELP" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERHELPTOPIC" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERIMAGEBASEDSEARCH" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERMYOPENCASES" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERNEXT" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERPIPELINE" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERQUARTER" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERSOQL" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERTOPOPPORTUNITIES" value="1665558330599" />
+                      <entry key="APEXCLASS:HANDLERTRAVELAPPROVAL" value="1665558330599" />
+                      <entry key="APEXCLASS:HTTPFORMBUILDER" value="1665558330599" />
+                      <entry key="APEXCLASS:JWT" value="1665558330599" />
+                      <entry key="APEXCLASS:JWTBEARERFLOW" value="1665558330599" />
+                      <entry key="APEXCLASS:LIFXCONTROLLER" value="1665558330599" />
+                      <entry key="APEXCLASS:LIFXCONTROLLERTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:PARKLOCATOR" value="1665558330599" />
+                      <entry key="APEXCLASS:PARKLOCATORTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:PARKSERVICE" value="1665558330599" />
+                      <entry key="APEXCLASS:PARKSERVICEMOCK" value="1665558330599" />
+                      <entry key="APEXCLASS:POSTPRICECHANGETOSLACK" value="1665558330599" />
+                      <entry key="APEXCLASS:POSTPRICECHANGETOSLACKTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:PRINTSTUDENTLISTCONTROLLER" value="1665558330599" />
+                      <entry key="APEXCLASS:PRINTSTUDENTLISTCONTROLLER2" value="1665558330599" />
+                      <entry key="APEXCLASS:PROPERTYCONTROLLER" value="1665558330599" />
+                      <entry key="APEXCLASS:PROPERTYCONTROLLERTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:PROPERTYPAGEDRESULT" value="1665558330599" />
+                      <entry key="APEXCLASS:PUSHPRICECHANGENOTIFICATION" value="1665558330599" />
+                      <entry key="APEXCLASS:PUSHPRICECHANGENOTIFICATIONTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:REJECTDUPLICATEFAVORITETEST" value="1665558330599" />
+                      <entry key="APEXCLASS:SLACKOPPORTUNITYPUBLISHER" value="1665558330599" />
+                      <entry key="APEXCLASS:SLACKOPPORTUNITYPUBLISHERTEST" value="1665558330599" />
+                      <entry key="APEXCLASS:SLACK_TST_BOT_COMMAND" value="1665558330599" />
+                      <entry key="APEXCLASS:SLACK_TST_BROKER" value="1665558330599" />
+                      <entry key="APEXCLASS:SLACK_TST_FAVORITE" value="1665558330599" />
+                      <entry key="APEXCLASS:SLACK_TST_OFFER" value="1665558330599" />
+                      <entry key="APEXCLASS:SLACK_TST_PROJECT" value="1665558330599" />
+                      <entry key="APEXCLASS:SLACK_TST_PROPERTY" value="1665558330599" />
+                      <entry key="APEXCLASS:STUDENTINFOCONTROLLER" value="1665558330599" />
+                      <entry key="APEXCLASS:TRIGGERHANDLER" value="1665558330599" />
+                      <entry key="APEXCLASS:TRIGGERHANDLER_TEST" value="1665558330599" />
+                      <entry key="APEXPAGE:DREAMHOUSESAMPLEDATA" value="1665558330599" />
+                      <entry key="APEXPAGE:EMAILMISSIONSPECIALIST" value="1665558330599" />
+                      <entry key="APEXPAGE:HEATMAP" value="1665558330599" />
+                      <entry key="APEXPAGE:HEATMAPMOCK" value="1665558330599" />
+                      <entry key="APEXPAGE:PRINTSTUDENTLIST" value="1665558330599" />
+                      <entry key="APEXPAGE:PRINTSTUDENTLIST2" value="1665558330599" />
+                      <entry key="APEXPAGE:STATIONCHECK" value="1665558330599" />
+                      <entry key="APEXTRIGGER:ACCOUNTTRIGGER" value="1665558330599" />
+                      <entry key="APEXTRIGGER:AWARDSTRIGGER" value="1665558330599" />
+                      <entry key="APEXTRIGGER:CLASSTRIGGER" value="1665558330599" />
+                      <entry key="APEXTRIGGER:CONTACTTRIGGER" value="1665558330599" />
+                      <entry key="APEXTRIGGER:PUSHNOTIFICATIONTRIGGER" value="1665558330599" />
+                      <entry key="APEXTRIGGER:REJECTDUPLICATEFAVORITE" value="1665558330599" />
+                      <entry key="APEXTRIGGER:SLACK_BOT_COMMAND" value="1665558330599" />
+                      <entry key="APEXTRIGGER:SLACK_BROKER" value="1665558330599" />
+                      <entry key="APEXTRIGGER:SLACK_FAVORITE" value="1665558330599" />
+                      <entry key="APEXTRIGGER:SLACK_OFFER" value="1665558330599" />
+                      <entry key="APEXTRIGGER:SLACK_PROJECT" value="1665558330599" />
+                      <entry key="APEXTRIGGER:SLACK_PROPERTY" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:BOT" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:CHANGESTUDENTCLASS" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:DAYSONMARKETESTIMATOR" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISION" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONCARD" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONDASHBOARD" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONDATASET" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONDATASETEVENT" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:EINSTEINVISIONEVENT" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:FORMATTEDDATE" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:MAP" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:MAPCARD" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:MORTGAGEAMORTIZATIONCHART" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:MORTGAGECALCULATOR" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:MORTGAGECALCULATORCARD" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:MORTGAGECHANGE" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PICTURECAROUSEL" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PICTUREGALLERYCARD" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PRICERANGE" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PRINTSTUDENTLIST" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PROPERTYDAYSONMARKETCHART" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PROPERTYLISTDAYSONMARKETCHART" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PROPERTYPAGECHANGE" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PROPERTYPAGINATOR" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PROPERTYSUMMARY" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PROPERTYTILE" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:PROPERTYTILELIST" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:RANGECHANGE" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:SIMILARPROPERTIES" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:SMARTHOME" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:SMARTHOMECARD" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:SMARTLIGHTS" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:SMARTLOCKS" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:SMARTPRICECALCULATOR" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:SMARTTHERMOSTAT" value="1665558330599" />
+                      <entry key="AURADEFINITIONBUNDLE:STUDENTINFO" value="1665558330599" />
+                      <entry key="STATICRESOURCE:COUNTUP7" value="1665558330599" />
+                      <entry key="STATICRESOURCE:GETANIMALNAMERESOURCE" value="1665558330599" />
+                      <entry key="STATICRESOURCE:GETANIMALRESOURCE" value="1665558330599" />
+                      <entry key="STATICRESOURCE:HEATMAP" value="1665558330599" />
+                      <entry key="STATICRESOURCE:HEATMAPMOCK" value="1665558330599" />
+                      <entry key="STATICRESOURCE:LEAFLET" value="1665558330599" />
+                      <entry key="STATICRESOURCE:LEAFLET1" value="1665558330599" />
+                      <entry key="STATICRESOURCE:NOUISLIDER" value="1665558330599" />
                     </map>
                   </option>
                   <option name="lastBuildScope" value="PROJECT" />
@@ -243,6 +281,7 @@
             <option name="splitterProportion" value="0.33519554" />
           </LogAnalyzerSettings>
         </option>
+        <option name="retrieveAndMergeDefault" value="false" />
       </ProjectWorkspaceSettings>
     </option>
   </component>
@@ -375,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665480539734</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update batch class, schedule class, batch test class">
+      <created>1665552966940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665552966940</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,9 +442,10 @@
     <MESSAGE value="code update" />
     <MESSAGE value="create batch class" />
     <MESSAGE value="create batch test class - 아직 미완성.." />
-    <option name="LAST_COMMIT_MESSAGE" value="create batch test class - 아직 미완성.." />
+    <MESSAGE value="update batch class, schedule class, batch test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="update batch class, schedule class, batch test class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Education$ContactDelayEmail_test.ic2" NAME="Education Coverage Results" MODIFIED="1665539601507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="Education" CONNECTION_NAME="Education" CONNECTION_TYPE="MDAPI" />
+    <SUITE FILE_PATH="coverage/Education$ContactDelayEmail_test.ic2" NAME="Education Coverage Results" MODIFIED="1665562505122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="Education" CONNECTION_NAME="Education" CONNECTION_TYPE="MDAPI" />
   </component>
 </project>
