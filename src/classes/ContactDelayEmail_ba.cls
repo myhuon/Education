@@ -21,7 +21,7 @@ public with sharing class ContactDelayEmail_ba implements Database.Batchable<sOb
         query += 'FROM Contact';
         query += 'WHERE CreatedDate < ' + Datetime.now().addDays(-3);   // 이거 안됨
 
-        DateTime createdDate = Datetime.now().addDays(-3);
+        DateTime createdDate = Datetime.now(); //.addDays(-3)
         List<Contact> listContact = [
                 SELECT Id, Name, Email
                 FROM Contact
@@ -32,7 +32,8 @@ public with sharing class ContactDelayEmail_ba implements Database.Batchable<sOb
         return Database.getQueryLocator([
                 SELECT Id, Name, Email
                 FROM Contact
-                WHERE CreatedDate <: createdDate
+                WHERE CreatedDate <: createdDate AND Email =: 'hyunsoo.song@daeunextier.com'
+                LIMIT 15
         ]);
     }
 
@@ -40,25 +41,23 @@ public with sharing class ContactDelayEmail_ba implements Database.Batchable<sOb
         List<Messaging.SingleEmailMessage> listMails = new List<Messaging.SingleEmailMessage>();
         List<String> listAddress = new List<String>();
         for(Contact obj : listContact) {
-            listAddress.add(obj.Email);
+            if(obj.Email != null) {
+                listAddress.add(obj.Email);
+            }
         }
 
         if(!listAddress.isEmpty()){
-            List<Contact> listUpdate = new List<Contact>();
             for(Contact obj : listContact) {
                 Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
                 mail.setToAddresses(listAddress);
                 mail.setSubject('[SFDC] ' + obj.Name + '님 안녕하세요.');
                 mail.setHtmlBody('<p>배치 클래스 테스트입니다.<p></br><h1>TEST</h1>');
                 listMails.add(mail);
-
-                obj.isSendEmail__c = true;
-                listUpdate.add(obj);
             }
 
             if(!listMails.isEmpty()){
+                System.debug('email list : ' + listMails);
                 Messaging.sendEmail(listMails);
-                update listUpdate;
             }
         }
 

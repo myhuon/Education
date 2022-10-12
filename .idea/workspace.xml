@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="create batch class">
+    <list default="true" id="2723ac14-3b56-4703-8e73-a07381288907" name="Changes" comment="create batch test class - 아직 미완성..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IlluminatedCloud/Education/OfflineSymbolTable.zip" beforeDir="false" afterPath="$PROJECT_DIR$/IlluminatedCloud/Education/OfflineSymbolTable.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_ba.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactDelayEmail_test.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/triggers/AccountTrigger.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/AccountTrigger.trigger" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +86,9 @@
                       <entry key="APEXCLASS:CALCULATORSERVICES" value="1663135857151" />
                       <entry key="APEXCLASS:CASEMANAGER" value="1663135857151" />
                       <entry key="APEXCLASS:CHANGESTUDENTCLASSCONTROLLER" value="1663745263719" />
-                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_BA" value="1665479643921" />
+                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_BA" value="1665539597184" />
                       <entry key="APEXCLASS:CONTACTDELAYEMAIL_SC" value="1665468189147" />
-                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_TEST" value="1665476781731" />
+                      <entry key="APEXCLASS:CONTACTDELAYEMAIL_TEST" value="1665538417312" />
                       <entry key="APEXCLASS:DREAMHOUSESAMPLEDATACONTROLLER" value="1663135857151" />
                       <entry key="APEXCLASS:EINSTEINVISIONCONTROLLER" value="1663135857151" />
                       <entry key="APEXCLASS:EINSTEINVISIONCONTROLLERTEST" value="1663135857151" />
@@ -370,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665469318036</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create batch test class - 아직 미완성..">
+      <created>1665480539734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665480539734</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,9 +395,10 @@
     <MESSAGE value="code review" />
     <MESSAGE value="code update" />
     <MESSAGE value="create batch class" />
-    <option name="LAST_COMMIT_MESSAGE" value="create batch class" />
+    <MESSAGE value="create batch test class - 아직 미완성.." />
+    <option name="LAST_COMMIT_MESSAGE" value="create batch test class - 아직 미완성.." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Education$ContactDelayEmail_test.ic2" NAME="Education Coverage Results" MODIFIED="1665479646582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="Education" CONNECTION_NAME="Education" CONNECTION_TYPE="MDAPI" />
+    <SUITE FILE_PATH="coverage/Education$ContactDelayEmail_test.ic2" NAME="Education Coverage Results" MODIFIED="1665539601507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="Education" CONNECTION_NAME="Education" CONNECTION_TYPE="MDAPI" />
   </component>
 </project>

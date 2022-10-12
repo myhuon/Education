@@ -20,8 +20,8 @@ public with sharing class ContactDelayEmail_test {
         System.debug('listAccounts : ' + listAccounts);
 
         List<Contact> listContact = new List<Contact>();
-        for(Integer i=0; i<200; i++){
-            Contact obj = new Contact(LastName = 'Batch' + i, AccountId = listAccounts.get(0).Id);
+        for(Integer i=0; i<100; i++){
+            Contact obj = new Contact(LastName = 'Batch' + i, AccountId = listAccounts.get(0).Id, Email = 'hyunsoo.song@daeunextier.com');
             listContact.add(obj);
         }
 
@@ -33,8 +33,8 @@ public with sharing class ContactDelayEmail_test {
             System.assert(true, e.getMessage());
         }
 
-
         Test.startTest();
+
         /*ContactDelayEmail_ba ba = new ContactDelayEmail_ba();
         Database.executeBatch(ba, 100);*/
 
