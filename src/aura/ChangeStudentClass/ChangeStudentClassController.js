@@ -5,7 +5,7 @@
 ({
     fnInit : function(component, event, helper) {
             console.log('classes', component.get("v.classes"));
-            helper.getInitData(component);
+               helper.getInitData(component);
     },
 
 /*    selectItem : function(component, event, helper) {
